@@ -24,7 +24,6 @@ jobs:
         with:
          distribution: 'temurin' # See 'Supported distributions' for available options
          java-version: '11'
-<<<<<<< HEAD
   
   BUILD_AND_PUBLISH:   
     needs: Testing
@@ -45,5 +44,3 @@ jobs:
          daemon_off: false
          dockerfile: ./Dockerfile
          context: ./
-=======
->>>>>>> 381f4b7a19b25600dbec9c1d0963c0d0a1354fa0
